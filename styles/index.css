@@ -1,0 +1,40 @@
+@keyframes animationsidechange {
+    0% {
+      transform: scale(1) rotate3d(0, 1, 0, 0deg);
+    }
+    20% {
+      border-radius: 2rem;
+      transform: scale(0.8) rotate3d(0, 1, 0, 0deg);
+    }
+    50% {
+      transform: scale(0.8) rotate3d(0, 1, 0, 90deg);
+      border-radius: 2rem;
+    }
+    80% {
+      transform: scale(0.8) rotate3d(0, 1, 0, 180deg);
+      border-radius: 2rem;
+    }
+    100% {
+      transform: scale(1) rotate3d(0, 1, 0, 180deg);
+    }
+  }
+  @keyframes animationsidechange-reverse {
+    0% {
+      transform: scale(1) rotate3d(0, 1, 0, 180deg);
+    }
+    20% {
+      border-radius: 2rem;
+      transform: scale(0.8) rotate3d(0, 1, 0, 180deg);
+    }
+    50% {
+      transform: scale(0.8) rotate3d(0, 1, 0, 90deg);
+      border-radius: 2rem;
+    }
+    80% {
+      transform: scale(0.8) rotate3d(0, 1, 0, 0deg);
+      border-radius: 2rem;
+    }
+    100% {
+      transform: scale(1) rotate3d(0, 1, 0, 0deg);
+    }
+  }
